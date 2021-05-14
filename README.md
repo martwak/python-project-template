@@ -26,7 +26,7 @@ Contributions are what make the open source community such an amazing place to b
 For big changes you should first create an issue, so that we can discuss about the changes before you start working.
 
 ## License
-Distributed under the MIT License. See 'LICENSE' for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 Feel free to contact me for further questions.
