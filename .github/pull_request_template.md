@@ -1,22 +1,15 @@
----
-name: Bug fix
-about: Create a pull request for a bug fix
-title: ''
-labels: bug
-assignees: ''
+### Related Issue(s)
+Link related issues here.
 
----
+### Proposed Changes
+- change 1
+- change 2
+- change 3
 
-**General Information**
-Related Issue(s): 
-Scope: 
-Solution (one sentence):
+### Additional context
+Add any other context and information here.
 
-**Detailed Summary**
-A clear and concise description of what you did.
-
-**Is there anything to do?**
-List of things that need to be finished.
-
-**Additional context**
-Add any other context about the problem here.
+### Checklist
+- [ ] ToDo 1
+- [ ] ToDo 2
+- [ ] ToDo 3
