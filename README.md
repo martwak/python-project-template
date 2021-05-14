@@ -2,7 +2,7 @@
 This is my template for projects in Python. This template uses GitHub Workflows to check formatting and run tests.
 
 ### Built With
-I use the commong code formatter [black](https://github.com/psf/black) as a formatter and [pylint](https://github.com/PyCQA/pylint) as a linter.
+I use the common code formatter [black](https://github.com/psf/black) as a formatter and [pylint](https://github.com/PyCQA/pylint) as a linter.
 
 ## Getting Started
 You can use this template as you want for your projects and customize things. Because this is a template repository i added these empty blocks to the README:
