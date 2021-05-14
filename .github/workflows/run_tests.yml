@@ -51,4 +51,4 @@ jobs:
       - name: Install requirements
         run: if [ -f requirements.txt ]; then pip install -r requirements.txt; elif [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
       - name: Run Pylint
-        run: pylint tests
+        run: pylint tests/*.py
