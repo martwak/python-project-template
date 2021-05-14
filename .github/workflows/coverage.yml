@@ -1,4 +1,4 @@
-name: Code-Style-Coverage
+name: Codestyle-Coverage
 
 on: [push, pull_request]
 
