@@ -21,3 +21,21 @@ jobs:
         run: python -m pip install --upgrade pip isort
       - name: Check Imports
         run: isort --check --diff *
+  check-black-format:
+    name: Check Blackformat
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Display Python version
+        run: python -V
+      - name: Install black
+        run: python -m pip install --upgrade pip black
+      - name: Check Format
+        run: black --check --diff --color
