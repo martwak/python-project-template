@@ -38,4 +38,4 @@ jobs:
       - name: Install black
         run: python -m pip install --upgrade pip black
       - name: Check Format
-        run: black --check --diff --color *
+        run: black --check --diff --color .
