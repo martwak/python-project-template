@@ -1,5 +1,5 @@
 ### Related Issue(s)
-Link related issues here.
+Link related issues here. For small fixes (like typo) no issue is needed. 
 
 ### Proposed Changes
 - change 1
