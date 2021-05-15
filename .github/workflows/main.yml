@@ -17,10 +17,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Setup Python 3.8
+      - name: Setup Python 3.7
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
+          python-version: 3.7
       - name: Display Python version
         run: python -V
       - name: Install isort, black and pylint
@@ -40,17 +40,13 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        python-version: [3.5,3.6,3.7,3.8,3.9]
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Setup Python ${{ matrix.python-version }}
+      - name: Setup Python 3.7
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.7
       - name: Display Python version
         run: python -V
       - name: Install pytest
