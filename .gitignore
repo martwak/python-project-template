@@ -2,6 +2,12 @@
 .venv/
 venv/
 
+# Setup Tools
+build/
+dist/
+*.egg
+*.egg-info
+
 # PyTest
 .pytest_cache
 
