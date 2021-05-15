@@ -1,3 +1,6 @@
 # Environments
 .venv/
 venv/
+
+# PyTest
+.pytest_cache
