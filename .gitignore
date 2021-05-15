@@ -4,3 +4,6 @@ venv/
 
 # PyTest
 .pytest_cache
+
+# VS Code
+.vscode
