@@ -1,11 +1,5 @@
 from setuptools import setup
 
-
-def readme():
-    with open("README.md") as file:
-        return file.read()
-
-
 setup(
     name="Python Project Template",
     version="0.1",
